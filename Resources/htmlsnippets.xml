@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Items>
+	<Notes>
+		<One>
+			<![CDATA[<!DOCTYPE html><html lang = 'en-US'><head><title>Drew's {0} Notes</title></title><meta charset = 'UTF-8'>]]>
+		</One>
+		<OnePointFive>
+			<![CDATA[<style>ul {margin-top: 0px;}p {margin:0px;}</style><link rel = 'stylesheet' type = 'text/css' href = 'http://luna.selenefinance.com/styles/master.css' /><link href='http://luna.selenefinance.com/styles/default.css?v=1.0' rel='stylesheet' type='text/css' /></head><body><div id='master_top'><div id='master_header'><div class='logo'><img id='ctl00_MasterHeader1_imgLogo' src='http://luna.selenefinance.com/images/blue_logo_230x40.gif' alt='Selene Finance' style='border-width:0px;' /></div><div class='top_header'><div class='top_nav'><div class='item'><a id='ctl00_MasterHeader1_AppLink1_hpl' href='http://point.selenefinance.com' target='_self'>Home</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkHR' href='http://luna.selenefinance.com/departments/human%20resource/hr.aspx'>Human Resource</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkLossMit' href='http://luna.selenefinance.com/departments/Loss%20Mitigation/Default.aspx' target='_self'>Loan Res</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkDefault' href='http://luna.selenefinance.com/departments/Default/Default.aspx' target='_self'>Default</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkCompliance' href='http://luna.selenefinance.com/departments/Compliance/Default.aspx' target='_self'>Compliance</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkAcquisitions' href='http://luna.selenefinance.com/departments/Acquisitions/Default.aspx' target='_self'>Acquisitions</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkReports_hpl' href='http://Reports.selenefinance.com/Reports/Pages/Folder.aspx' target='_self'>Reports</a></div><div class='item'><a id='ctl00_MasterHeader1_lnlProfile_hpl' href='http://Asec7.selenefinance.com/directory.aspx' target='_self'>Profile</a></div></div></div><div class='user'><span id='ctl00_MasterHeader1_lblWelcome'>Andrew Jowers(S)</span><img id='ctl00_MasterHeader1_img_lock' title='Secured' src='http://luna.selenefinance.com/images/lock.png' style='border-width:0px;' /></div></div></div><div><ol>]]>
+		</OnePointFive>
+		<Two>
+			<![CDATA[<br /><li><p><strong>BITR: <a href='http://sara7.selenefinance.com/sections/BIT/requestview.aspx?rid={0}' target='_blank'>{0}</a></strong> ({1})<br /><table width='85%'><tr><td width='10%'>Current Status:</td><td>{2}</td></tr><tr><td>Owner:</td><td>{3}</td></tr><tr><td>Name:</td><td>{4}</td></tr><tr><td>Description:</td><td>{5}</td></tr><tr><td>Followup Date:</td><td>{6}</td></tr><tr></tr><tr><td colspan='2'>Comments:</td></tr><tr><table width='85%'>]]>
+		</Two>	
+		<Three>
+			<![CDATA[<tr><td width='10%'></td><td width='10%'>{0}:</td><td>{1}</td></tr>]]>
+		</Three>
+		<Four>
+			<![CDATA[</table></tr></table></p></li><hr width='100%' />]]>
+		</Four>
+		<Five>
+			<![CDATA[</ol></div></body></html>]]>
+		</Five>
+		<Six>
+			<![CDATA[<a href='http://sara7.selenefinance.com/sections/BIT/requestview.aspx?rid={0}' target='_blank'>{0}</a>]]>
+		</Six>
+	</Notes>
+	<Search>
+		<One>
+			<![CDATA[<!DOCTYPE html><html lang = 'en-US'><head><title>{0} Search Results</title></title><meta charset = 'UTF-8'>]]>
+		</One>
+		<Two>
+			<![CDATA[<style>ul {margin-top: 0px;}p {margin:0px;}</style><link rel = 'stylesheet' type = 'text/css' href = 'http://luna.selenefinance.com/styles/master.css' /><link href='http://luna.selenefinance.com/styles/default.css?v=1.0' rel='stylesheet' type='text/css' /></head><body><div id='master_top'><div id='master_header'><div class='logo'><img id='ctl00_MasterHeader1_imgLogo' src='http://luna.selenefinance.com/images/blue_logo_230x40.gif' alt='Selene Finance' style='border-width:0px;' /></div><div class='top_header'><div class='top_nav'><div class='item'><a id='ctl00_MasterHeader1_AppLink1_hpl' href='http://point.selenefinance.com' target='_self'>Home</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkHR' href='http://luna.selenefinance.com/departments/human%20resource/hr.aspx'>Human Resource</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkLossMit' href='http://luna.selenefinance.com/departments/Loss%20Mitigation/Default.aspx' target='_self'>Loan Res</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkDefault' href='http://luna.selenefinance.com/departments/Default/Default.aspx' target='_self'>Default</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkCompliance' href='http://luna.selenefinance.com/departments/Compliance/Default.aspx' target='_self'>Compliance</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkAcquisitions' href='http://luna.selenefinance.com/departments/Acquisitions/Default.aspx' target='_self'>Acquisitions</a></div><div class='item'><a id='ctl00_MasterHeader1_lnkReports_hpl' href='http://Reports.selenefinance.com/Reports/Pages/Folder.aspx' target='_self'>Reports</a></div><div class='item'><a id='ctl00_MasterHeader1_lnlProfile_hpl' href='http://Asec7.selenefinance.com/directory.aspx' target='_self'>Profile</a></div></div></div><div class='user'><span id='ctl00_MasterHeader1_lblWelcome'>Andrew Jowers(S)</span><img id='ctl00_MasterHeader1_img_lock' title='Secured' src='http://luna.selenefinance.com/images/lock.png' style='border-width:0px;' /></div></div></div><div>]]>
+		</Two>
+		<Three>
+			<![CDATA[<p>Search Term: {0}</p><ul>]]>
+		</Three>
+		<Four>
+			<![CDATA[<li><a href='{0}' target='_blank'>{1}</a></li>]]>
+		</Four>	
+		<Five>
+			<![CDATA[</ul></div></body></html>]]>
+		</Five>
+	</Search>
+</Items>

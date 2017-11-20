@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<Items>
+  <BITR id="34839" active="0 1" name="Investor ID 001 Report" description="We want create a monthly report which isolates Investor ID 001 and pulls the updated credit score, corporate advance balance, third party advance balance, property address, and BPO value for each loan. We need this information updated through the end of each month." owner="Radford Gunzenhauser" status="Scheduled for Release" followupdate="2017-07-03">
+    <Comment date="05/01/2017 16:34:35" text="Sent report to requester. Status changed to ready for testing." />
+    <Comment date="05/05/2017 14:12:47" text="No testing response yet. Will follow up next week." />
+    <Comment date="05/16/2017 10:44:51" text="Requested update from tester. No response yet since assigned 5/1." />
+    <Comment date="05/23/2017 16:17:53" text="still no tester response. will follow up at the end of the month." />
+    <Comment date="05/26/2017 11:01:09" text="Ready for release. Emailed Will and April for publish." />
+    <Comment date="05/31/2017 15:04:12" text="Emailed April for deployment. No further action needed from me." />
+    <Comment date="06/07/2017 15:02:56" text="Complete, need Will/April to publish. Have asked 2x so far." />
+    <Comment date="06/14/2017 14:46:47" text="emailed will/april again" />
+    <Comment date="06/28/2017 10:28:38" text="needs to be released" />
+    <Comment date="07/28/2017 11:01:12" text="Released" />
+  </BITR>
+  <BITR id="28946" active="0 1" name="Enhancement of Loss Reserve&gt;FHA Detail Report" description="Need to add a column for the MSP Investor ID# (i.e. 002, G71, KR2)  Need to update the Allowable cost used in the calculation, See Attached.  Need to update the 10 yr constant maturity table for the debenture rate calculation.  See Attached" owner="Danny Lawson" status="Ready for testing" followupdate="2017-06-07">
+    <Comment date="05/01/2017 16:31:06" text="figured out the way the fields are calc'ed. Still need to figure out how to update tables/view" />
+    <Comment date="05/05/2017 14:03:55" text="Asked for additional clarification" />
+    <Comment date="05/15/2017 11:39:44" text="Checked in report. Assigned to requestor for testing." />
+    <Comment date="05/24/2017 09:31:05" text="No response yet. " />
+    <Comment date="05/31/2017 14:59:29" text="WIll follow up next week. Waiting for testing." />
+    <Comment date="05/31/2017 15:54:32" text="A new comment" />
+    <Comment date="05/31/2017 16:15:56" text="another new comment" />
+    <Comment date="05/31/2017 16:15:59" text="another new comment" />
+    <Comment date="05/31/2017 16:16:34" text="saved?" />
+    <Comment date="06/07/2017 15:03:49" text="Pending testing. This is a really old request, don't think the requestor cares. " />
+  </BITR>
+  <BITR id="35773" active="0 1" name="REO DIL Credit Bureau Report" description="From viewing the Reo-DIl Report in the reports folder through LUNA, it appears to have stopped updating.  The last DIL reported was 2/27/2017.  Please check the report to determine why newer DILs are not pulling into the report." owner="Cathy Oliver" status="Ready for testing" followupdate="2017-06-14">
+    <Comment date="05/01/2017 16:33:00" text="Opened application BITR for issue to be fixed" />
+    <Comment date="05/16/2017 10:54:41" text="Still waiting on answer on application ticket I opened. Emailed Mark for update with WIll's example." />
+    <Comment date="05/23/2017 15:54:12" text="DILs pulling into report as of 5/17. Noted the BITR. Can close if requestor approves. May have to update the previous if reqeustor wants." />
+    <Comment date="06/07/2017 15:00:59" text="Assigned for testing. No further action needed." />
+  </BITR>
+  <BITR id="35108" active="0 1" name="AG Feed - New Letter Data File" description="Create separate data file containing all letters sent.  Due to # of records, this will be an incremental file (daily file, only letters sent out the previous business day)." owner="Venkat Chennam" status="Scheduled for Release" followupdate="2017-05-26">
+    <Comment date="05/01/2017 16:33:43" text="no action needed. Matt did this" />
+    <Comment date="05/02/2017 16:33:53" text="Disregard previous note. This needs action to set up procs." />
+    <Comment date="05/08/2017 16:40:31" text="Created synonym and procs on Dev servers. need these to be pushed to prod" />
+    <Comment date="05/16/2017 10:38:42" text="Emailed Venkat with info on what needs to be checked in. " />
+    <Comment date="05/16/2017 15:33:38" text="Adding Process/Step IDs: You can create a process ID in LAUNCH.process.process_master. For step_id run the sp  exec process.step_master_addnew and pass the required parameters. A good example for passing parameter values would be to check the step id 9481. If you would like me to create the process_id/step_id, assign the BITR to me and I will take care of it. Testing the objects After the process/step info is checked into source control, make sure the BITR is assigned to someone for testing.  Deployment Once the testing is complete, I will push it to production.  Feel free to call me if you have any questions." />
+    <Comment date="05/16/2017 16:46:56" text="Reassigned to Venkat. He will exec sprocs to insert steps. Once done, I need to get step IDs and Process IDs from process_master and step_master tables and update my procs' vars. Then, have someone test the code, then he will push to prod." />
+    <Comment date="05/17/2017 13:44:17" text="Venkat has created steps. I have edited procs to include step and process vars, checked in code. Tested and confirmed working correctly. Emailed Matt for testing." />
+    <Comment date="05/17/2017 16:15:32" text="Matt tested. Looks good. No letters missing from t_ollw relative to SCOR." />
+    <Comment date="05/17/2017 16:36:39" text="Assigned to Matt for Dev testing. Once he notes, will send to Venkat for push to prod." />
+    <Comment date="05/18/2017 09:48:04" text="Matt completed testing. Assigned to Venkat for push to production." />
+    <Comment date="05/24/2017 10:05:02" text="Created BITR 36467 for Venkat to create an SSIS package.'" />
+    <Comment date="05/25/2017 13:15:34" text="Venkat finished SSIS package. Complete." />
+    <Comment date="05/31/2017 16:14:22" text="Still no action needed." />
+    <Comment date="05/31/2017 16:26:44" text="Still nothing" />
+    <Comment date="05/31/2017 16:28:17" text="and again" />
+    <Comment date="05/31/2017 16:28:33" text="and one more time" />
+  </BITR>
+  <BITR id="34966" active="1" name="REO Dashboard" description="Per meetings this week and on 3/30 with Mitch, Joe, Jitesh, Will, and Drew, opening a BITR to create a forum for a REO Dashboard.    Attached is the sub_statuses for Pyramid Pending Listing main status and the triggering fields." owner="Ryan Steward" status="Ready for testing" followupdate="2017-10-11">
+    <Comment date="05/01/2017 16:42:40" text="Need to incorporate Brad's code to break out Inactives." />
+    <Comment date="05/04/2017 16:45:50" text="Added all pieces that Brad provided." />
+    <Comment date="05/05/2017 11:54:05" text="Ready for testing to Ryan Steward." />
+    <Comment date="05/08/2017 16:29:01" text="Good morning Drew," />
+    <Comment date="05/08/2017 16:29:50" text="Ryan:Good morning Drew,I just realized I have the open ticket for the BITR open and need to complete testing. Do you know if the # of rejected Market Plans (including Market Plan with Repairs) tasks is reportable from the Pyramid data?  It would be one that was with the Investor1 role and then went back to the Asset Manager." />
+    <Comment date="05/16/2017 10:39:59" text="Emailed Ryan to advise not able to pull denied/rejected Market Plans programatically." />
+    <Comment date="05/17/2017 18:08:45" text="Set up exceptions procs and summary. Need to add additional exceptions, set up drill down on exceptions. Also need drill down on subtotals on main report." />
+    <Comment date="05/23/2017 15:28:50" text="Updated all drill downs on the report. " />
+    <Comment date="05/31/2017 14:53:44" text="Implemented all changes. Assigned to Brad for testing. Will publish report prelim for business to test." />
+    <Comment date="06/07/2017 14:57:47" text="Report has been published preliminarily. Waiting on requestor" />
+    <Comment date="06/08/2017 15:32:59" text="Added Tool Tips for description of status names. Sent to Will today" />
+    <Comment date="06/14/2017 14:42:02" text="Added additional exceptions, reworked the calling procs, implemented exception engine" />
+    <Comment date="06/20/2017 10:28:07" text="Ryan: Please add the following to the dashboard - For properties that were closed and separately listed, provide the total number of days the asset was in Pending Listing status. For example, the property is now listed, show how much time did it spend in Pending Listing status. A separate figure would show all of those that closed, how may days did they previously spend in Pending Listing status. Standard is less than or equal to 40 days, show how many were within or out of standard. For closed properties, how many days the Market Plan or Market Plan with Repair Analysis tasks were with the L1, L2, L3,Investor1 roles. Count of how many of the closings contained the following: Recommended Sales Strategy (from most recent MP or MP with Repair task), Repaired, PartialRepair" />
+    <Comment date="06/22/2017 16:09:48" text="Implemented Ryan's requests. Waiting for additional feedback" />
+    <Comment date="06/28/2017 10:32:38" text="emailed ryan and mitch." />
+    <Comment date="07/28/2017 11:27:44" text="Brad sent more work - repair status breakdown. need to find out specifics." />
+    <Comment date="07/28/2017 14:23:04" text="emailed brad for clarification. need to get together and figure out what's needed." />
+    <Comment date="07/31/2017 16:56:16" text="get with brad" />
+    <Comment date="09/07/2017 11:22:44" text="sent to will/april to check in changes. once complete will send to ryan for final approval" />
+    <Comment date="09/18/2017 14:36:39" text="pending testing. hopefully completely done" />
+    <Comment date="09/20/2017 09:42:43" text="no response yet. still waiting" />
+    <Comment date="09/26/2017 13:31:59" text="asked for update from requestor" />
+    <Comment date="10/10/2017 11:32:50" text="meeting with Mitch today for more stuff needed" />
+  </BITR>
+  <BITR id="35725" active="0" name="REO MSP/SARA/Pyramid Exceptions" description="Please generate a report of any REO that have a balance in MSP or SARA that are closed in Pyramid.     Please provide the following fields in the report:  1)Loan Number  2)Investor  3)Investor Code  4)UPB  5)Foreclosure Date  6)Property State  7)Value" owner="Andrew Jowers" status="In development">
+    <Comment date="05/01/2017 16:34:05" text="working this through BITR 34966" />
+    <Comment date="05/04/2017 16:46:16" text="Added all features that Brad provided." />
+  </BITR>
+  <BITR id="34395" active="0 1" name="Mod Performance" description="Per our discussion today.      Jitesh/Will/Diane/Mary/Mark – We need to look at building some Trial Mod Default Rate and Mod Re-Default Rate reporting based on DTIs bands  Analysts at Fitch have found that loans modified after 2014 have higher re-default rates. The data was published was part of the company’s “Historical Modification Data Review” which analyzed Fannie Mae’s dataset for modified single-family mortgages. The dataset contained 700,000 loans and a $135 billion balance. Of these, 448,000 loans were still active with an outstanding balance of $75 billion.   Based on the data being collected since 2009, there is a strong tie between new loan modification and higher re-default rates. Analysts found that loans modified after 2014 have higher re-default rates, with 2015 being the highest since 2010. The report cites weak credit attributes as a possible cause for the spike since the average FICO score was only 592. These loans re-defaulted quickly after modification. Seventy-five percent of them within the first two years alone.   Traditionally, loan-to-value (LTV) ratios and credit scores are risk predictors, but the report stated that “loan modification terms play a significant role and there is direct correlation between the amount of the payment reduction and re-default rates. Borrowers who received multiple modifications have higher re-default rates.”  The majority of the loans included in the report were modified per one of the following three programs: Home Affordable Modification Program (HAMP), Streamlined Modification Program (SMP), Standard Modification. Unlike HAMP and Standard Modification, which use step-up mortgages and require documented hardship, SMP doesn’t require the borrower to have a documented hardship and focuses on fixed-rate modifications.  Although SMP loans comprised much of the outstanding balance in the dataset ($35 billion, or 47 percent of the overall balance), the highest re-default rate is found in Standard Modification loans. These borrowers typically don’t qualify for HAMP or have defaulted on HAMP before. Fannie Mae plans to replace Standard Modification in late 2017 with the Fannie Mae Flex Modification Program. HAMP loans had the lowest re-default rate out of all three programs.   The analysts predicted that the trends identified in Fannie Mae’s historical dataset are predominant in loans not only owned by Fannie Mae, but other institutions as well.    Read the original Fitch Report here." owner="Andrew Jowers" status="In development" followupdate="2017-06-30">
+    <Comment date="05/01/2017 16:34:56" text="need clarification on what is needed here." />
+    <Comment date="06/14/2017 14:31:23" text="Not currently working on this." />
+  </BITR>
+  <BITR id="35975" active="0" name="Provide Pretium with al holds file" description="This needs to be an alpha file of all holds. Provide in same format as their daily .bak delta file. Needs to be provided by noon 4/28." owner="Venkat Chennam" status="Released">
+    <Comment date="05/01/2017 16:36:35" text="Assigned to Venkat. No Action Needed." />
+  </BITR>
+  <BITR id="34123" active="0" name="RCK FICO REPORTING - Feed" description="RC would like to change one item on the report they get in regards to FICO scores. I believe we do something similar for Palisades already. If the FICO score is 0, they would like us to report the previously known (valid) FICO score.     Example is if the score was 523 and then moved to 0, we would continue to report it at 523 along with that date." owner="Venkat Chennam" status="Scheduled for Release">
+    <Comment date="05/01/2017 16:37:17" text="Re-assigned to matt. No action needed." />
+  </BITR>
+  <BITR id="35976" active="0" name="Letter Reconcilation Dashboard" description="Create dashboard to display, per date, counts of Letters:  --Sent to Vendor  --Mailed  --Not Mailed  --Mailed w/in 48 hours  --Mailed outside of 48 hours  --Imaged  --Imaged w/in 5 days" owner="SAMI ADMIN" status="Rejected">
+    <Comment date="05/01/2017 16:37:41" text="Working this request. Have basic query" />
+    <Comment date="05/02/2017 16:37:12" text="In team meeting 2017-05-02, found out this is possibly already done by Sohana (sp?). Need to get with her and Will to verify what's going on." />
+    <Comment date="05/09/2017 10:29:51" text="Still no response" />
+    <Comment date="05/15/2017 16:22:44" text="There's already a BITR open for this request 30161. Working under that ID." />
+  </BITR>
+  <BITR id="35884" active="0 1" name="Missing DILs" description="In reo.portfolio_t, there have not been any DIL entries since 24 Feb. Please investigate. It appears that there have been DILs entered through Refer in that time frame." owner="SAMI ADMIN" status="Rejected" followupdate="2017-06-02">
+    <Comment date="05/01/2017 16:38:12" text="Provided examples 4/27. Waiting for feedback from Kevin Blackwell." />
+    <Comment date="05/02/2017 14:51:47" text="Provided clarifiction to Mark Wilkinson on the missing DILs." />
+    <Comment date="05/16/2017 10:53:41" text="Emailed Mark for follow up on Will's example." />
+    <Comment date="05/16/2017 14:50:19" text="Mark's Team:So when we have 'D' in value_013 script pushes 8 to Foreclosure stop with RO reason code. This is failing with Reserved Reason Code not allowed. I will see if Stephanie/Ray can help with this!" />
+    <Comment date="05/30/2017 14:53:27" text="DIL working now. waiting for response from requestor" />
+    <Comment date="06/07/2017 14:58:58" text="Complete" />
+  </BITR>
+  <BITR id="35807" active="0" name="GS Feed - New FC Hold Data File" description="Create new one-to-many data file (pipe, .txt format). with the FC holds both active/completed." owner="William Halladay" status="Released">
+    <Comment date="05/01/2017 16:39:05" text="Re-assigned to Venkat. No Action needed." />
+  </BITR>
+  <BITR id="35912" active="0" name="Doc Solution - Outstanding AR" description="Hello,    Please provide all DCCH transactions for payee VE00000416 on the attached loan list. Please use the below format." owner="Chris Davis" status="Scheduled for Release">
+    <Comment date="05/01/2017 16:39:33" text="Completed. No additional action needed." />
+    <Comment date="05/02/2017 16:38:12" text="Asked will to change to released status" />
+  </BITR>
+  <BITR id="34497" active="0" name="Dialer Report: Dialy Penetration" description="We need a Penetration report to show How many records get attempts each day out of those that went to the dialer." owner="Roger Leonard" status="Scheduled for Release">
+    <Comment date="05/01/2017 16:41:30" text="Emailed Roger for feedback." />
+    <Comment date="05/03/2017 11:56:29" text="Follow up Friday 5 May. If no response will ask for Released status." />
+    <Comment date="05/05/2017 11:40:04" text="Requested Released status." />
+  </BITR>
+  <BITR id="31922" active="0" name="KPI Reporting - Breakout Inflight Workouts" description="For the calculation of the KPI for the 5 day and 30 day review, CFPB allows us a 10 day period post transfer to complete the respective task for inflight transfers.      Please break out the Inflight workouts on the KPI report to include a row for inflight workouts.  Calculate the KPI for either the current standard, or 10 days from transfer date as the deadline for each of the Inflight KPI calculations, whichever is greater.      I would like them shown on a separate line because we are currently falling outside KPIs due to transfers and I want to highlight the cause so we can work to address it.      Review Type   05 Day Review   05 Day Review - Inflight   30 Day Review   30 Day Review - Inflight   Mod Conversion   Mod Conversion - Inflight   Mod Closing   Mod Closing - Inflight" owner="Corrine McKnight" status="Scheduled for Release">
+    <Comment date="05/01/2017 16:41:53" text="scheduled for released. no action needed." />
+    <Comment date="05/02/2017 15:53:29" text="a comment with a &gt;" />
+    <Comment date="05/03/2017 11:57:56" text="Asked for release status" />
+  </BITR>
+  <BITR id="34149" active="0" name="SQL Access - Andrew Jowers" description="New reporting team member, Andrew Jowers needs access SQL Servers.  Write access to RPT101,  RO on all others.  username:  selene1\andrewj" owner="Mallikarjuna Gopireddy" status="Rejected">
+    <Comment date="05/03/2017 11:30:08" text="No Action is needed here." />
+  </BITR>
+  <BITR id="35473" active="0" name="Update Logic for Completed Workouts Tab in Decks" description="Investor Decks Completed Workouts Tab's Logic needs to be updated .   So that it should be pointing to the New Production.vw_all_t  view.     Thanks,  Srini" owner="Srinivas Sandupatla" status="Scheduled for Release">
+    <Comment date="05/03/2017 11:08:37" text="No action needed." />
+  </BITR>
+  <BITR id="34624" active="0 1" name="ARM/Step data dump request" description="Per Wells Fargo we would like to request a dump of all ARM, Step rate and interest-only loan parameters. The data will help to reduce monthly exception emails around rate and payment changes.     I have attached a template which lists the data points on the first tab and a long description on the second.     Please let us know when you can provide reporting data for this request" owner="Karina Ratmansky" status="Ready for testing" followupdate="2017-06-30">
+    <Comment date="05/04/2017 16:45:15" text="Need to get with Matt. " />
+    <Comment date="05/08/2017 16:25:42" text="Emailed Matt to get some time tomorrow to review this." />
+    <Comment date="05/16/2017 10:43:32" text="Started on this 5/11. code in SQL folder" />
+    <Comment date="05/31/2017 14:13:51" text="Assigned to requestor for testing. She has sent to vendor for testing. Once tested, publish then have Venkat set up subscription to send report." />
+    <Comment date="06/07/2017 14:55:33" text="Still pending with client" />
+    <Comment date="06/14/2017 14:37:58" text="Asked requestor if client response yet." />
+  </BITR>
+  <BITR id="36178" active="0" name="AG Feed - New Transactions File" description="AG has requested a daily separate CSV (comma delimited) for transactions from the finance.transactions_t  table in PROD101.  We will provide one-time full history transaction file, and going forward will be incremental (trans only from the previous business day).  Delivery schedule will be daily, same as all their data files" owner="Venkat Chennam" status="Scheduled for Release">
+    <Comment date="05/15/2017 16:20:31" text="Matt and Venkat handling. No action needed from me." />
+  </BITR>
+  <BITR id="36263" active="0 1" name="Ginnie Mae Valuation Protocol for Post FC Loans" description="HUD is requiring Selene to order appraisals on investor code GNMA loans post foreclosure to employ for fair market values to use in their financials on an annual basis. With that said we need to build a report that will enable Valuations to determine the population of loans which will require an order/updated value. With that in mind we would like to create the following;     - Dropdown menu where end user can select by investor and pull all loans Selene services with the following fields.     * Loan Number  * Investor  * Investor Code  * Street Address  * City   * State  * Zip  * Property Type  * Borrower Name  * UPB  * Loan Status  * Lien Type  * FC Sale Date  * Occupancy  * Most Recent Product Type  * Most Recent Product Value  * Most Recent Product Date   * Most Recent Vendor  * Most Recent Recon Value  * Most Recent Recon Date" owner="Marcus Garland" status="Scheduled for Release" followupdate="2017-06-19">
+    <Comment date="05/12/2017 15:44:41" text="Created report, assigned for testing to requestor" />
+    <Comment date="05/16/2017 08:55:47" text="Testing completed. Changed status to scheduled for release. Waiting on Will to release." />
+    <Comment date="05/19/2017 14:03:20" text="Asked Will for release." />
+    <Comment date="05/19/2017 14:09:57" text="Waiting for Will to release. Asked him on 2017-05-19. Emailed again today. Report is ready to go." />
+    <Comment date="05/23/2017 16:38:37" text="Spoke to Patricia, there are loans on there that are not supposed to be on there. Need to check servicing sold date, pyramid status, and is_reo flag." />
+    <Comment date="05/24/2017 10:11:53" text="Updated proc to filter is_reo = 1 in loan.vw_servicing_t. Emailed Patricia for additional testing." />
+    <Comment date="05/31/2017 14:58:35" text="Emailed Patricia for f/u on report changes. If OK, change to release." />
+    <Comment date="06/05/2017 12:04:26" text="Patricia is out until 6/12. Will follow up after that." />
+    <Comment date="06/14/2017 14:44:04" text="emailed patricia for update" />
+    <Comment date="06/20/2017 10:26:57" text="Report OK, published. Closing." />
+  </BITR>
+  <BITR id="30161" active="0 1" name="Reconciliation Report" description="I need a reconciliation report for all the letters automated through Walz.        You'll need to tie everything in letters.letter_export_h where the extract_type='def_layout', the letter_process_flag='v', and the extract date is not null.   For every one of those entries, you should see at least one record in the results file from Walz loaded in [letters].[mailbook_h] (this table has a 1 to many relationship)    My ultimate goal is to catch any loans where letter_export_h says it was transmitted to Walz, and Walz doesn't return any results." owner="Andrew Jowers" status="Assigned" followupdate="2017-06-30">
+    <Comment date="05/15/2017 16:42:28" text="Sahana sent info on what she's previously done." />
+    <Comment date="05/15/2017 16:54:45" text="Sahana's report is Servicing Analytics -&gt; Letter Invoice Recon." />
+    <Comment date="05/15/2017 16:57:57" text="Previous BITRs related to this request: 33050 and 35976" />
+    <Comment date="06/14/2017 14:31:10" text="On hold for now." />
+  </BITR>
+  <BITR id="36467" active="0" name="Create SSIS Package for AG Letter data extract" description="Please create an SSIS package to launch AG letter data extract process.  Related to BITR#35108." owner="Venkat Chennam" status="Scheduled for Release">
+    <Comment date="05/26/2017 15:30:34" text="Completed" />
+  </BITR>
+  <BITR id="36509" active="0 1" name="Palisades Feed - Valuations_f Adjustment" description="Remove the restriction in valuations_f SP where requires a CompletedDt from Pyramid BPO table.  This does not constitute a valid/invalid BPO." owner="Venkat Chennam" status="Scheduled for Release" followupdate="2017-06-02">
+    <Comment date="05/30/2017 10:48:12" text="checked in code changes. assigned BITR to Venkat to push to prod." />
+    <Comment date="06/07/2017 14:58:21" text="Complete" />
+  </BITR>
+  <BITR id="36519" active="0 1" name="LM Summary Deck &amp; Investor Monthly Report" description="The reports are missing Note Sales and Refinances.  They were there in prior months.  I realize we don't have them every month, but they should appear in the reports because of prior month trending.      Can we also add the Loan Resolution Inventory found in the Investor Deck into the LM Summary Deck.  That way we can have all reports pulled in one place for our monthly deck.      Thank you." owner="Mary McGrath" status="Scheduled for Release" followupdate="2017-06-30">
+    <Comment date="06/02/2017 11:49:33" text="Added the Completion items, this is in production now. Need to add the Loan Resolution inventory next. Need to figure match the filters on the current report, and the hidden info." />
+    <Comment date="06/07/2017 14:54:33" text="Assigned BITR to requestor for testing. Once testing complete, can publish." />
+    <Comment date="06/07/2017 15:47:15" text="Mary approved, need her to change status then will schedule for release." />
+    <Comment date="06/14/2017 14:36:20" text="Still need published and release status" />
+    <Comment date="06/22/2017 09:59:30" text="Published. Inactivating" />
+  </BITR>
+  <BITR id="36422" active="0 1" name="Reconcilation Report - Update Request" description="The attached report is sent to the IM department daily. I need to have the following changes made.    - Remove all investors from the report with the exception of MTGLQ Investors, LP.    - Add tab to capture loans that were removed from the report.     - Add a removal date column.    - Capture &quot;remove&quot; comment from SARA.    - Remove the multiple instances. The loan only needs to appear once.    1012579; 10134633; and 10137081 are examples are loans that were removed from the report using the comment &quot;Corp-Advance-Recon-Completed&quot; in SARA.     The original BITR is 32350. Link to report is below:   http://reports.selenefinance.com/Reports/Pages/Report.aspx?ItemPath=%2fLoan+Administration%2fReconcilation+Report" owner="Chris Davis" status="Scheduled for Release" followupdate="2017-07-03">
+    <Comment date="06/20/2017 10:25:11" text="Working this request now. Need Srini to check in report for changes." />
+    <Comment date="06/20/2017 11:37:51" text="Asked Srini to check in or send the RDL" />
+    <Comment date="06/20/2017 15:16:16" text="Updated report. Uploaded to BITR and sent to requestor for approval." />
+    <Comment date="06/21/2017 09:42:10" text="Made changes, sent back to requestor." />
+    <Comment date="06/21/2017 14:14:36" text="Testing completed. Changed BITR status, emailed WIll and April for publishing." />
+    <Comment date="06/28/2017 10:28:13" text="Needs to be published." />
+    <Comment date="07/28/2017 11:02:19" text="published" />
+  </BITR>
+  <BITR id="36884" active="0 1" name="Changes to (2) existing reports" description="We are requesting changes to (2) existing reports-   1) Workout Denial Report  2) Detail Loan Custom Report.    Additions:  Please add the following 2 fields to each report mentioned above:  1) Termination reason in the Mod Financial screen of SARA in the Close Timeline section of the screen  2) The comments in the box contained in the MOD Financial screen of SARA in the Close Timeline section of the screen." owner="Mary McGrath" status="Scheduled for Release" followupdate="2017-10-02">
+    <Comment date="06/20/2017 10:18:39" text="All work done. Assigned to requestor for testing." />
+    <Comment date="06/28/2017 10:26:56" text="no response yet" />
+    <Comment date="07/28/2017 11:03:45" text="wiating for tester. commented to inquire" />
+    <Comment date="09/18/2017 14:12:49" text="Mary is updating BITR" />
+    <Comment date="09/26/2017 13:34:43" text="testing complete, asked for publish" />
+    <Comment date="10/10/2017 11:35:00" text="complete" />
+  </BITR>
+  <BITR id="37010" active="0 1" name="GS Data Feed - 6/27/17 Release" description="GS Data Feed items for 6/27/17 release" owner="Venkat Chennam" status="Scheduled for Release" followupdate="2017-06-29">
+    <Comment date="06/22/2017 14:33:36" text="Completed. No more action needed." />
+  </BITR>
+  <BITR id="35882" active="0 1" name="BK Dashboard reporting update" description="Pull the &quot;is LMT&quot; 1 population reporting in the &quot;MFR not Feasible&quot; bucket under the BK dashboard reporting &quot;BK Status Summary&quot; section and create a bucket &quot;MFR Not Feasible-LM&quot; reporting all MFR not feasible due to active Loss Mitigation" owner="Andrew Jowers" status="Scheduled for Release" followupdate="2017-07-25">
+    <Comment date="07/19/2017 16:53:53" text="looks like the work is already done. emailed requestor to clarify" />
+    <Comment date="07/28/2017 12:06:33" text="No work needed" />
+  </BITR>
+  <BITR id="35925" active="0 1" name="Claims Activity Summary Report" description="Please add the fees to Column H/ Action Amount: for the Supplemental Filed, Supplemental Received and Supplemental Refund to HUD" owner="Nicholle Stevens" status="Ready for testing" followupdate="2017-09-22">
+    <Comment date="07/19/2017 16:42:33" text="All code written. next steps in bitr notes." />
+    <Comment date="07/20/2017 09:02:11" text="Got with Srini for proc update." />
+    <Comment date="07/28/2017 11:43:11" text="emailed will about change needed. waiting for approval" />
+    <Comment date="07/28/2017 12:41:37" text="will approved changes but sysup proc not running. util.converttodecimal2 is failing. venkat emailed about issues, will try again monday. reverted the view." />
+    <Comment date="07/31/2017 11:59:29" text="changes complete. assigned to requestor for testing" />
+    <Comment date="09/18/2017 14:31:26" text="PENDING TESTING" />
+    <Comment date="09/18/2017 14:32:07" text="asked for requestor testing" />
+    <Comment date="09/20/2017 09:43:07" text="completed" />
+  </BITR>
+  <BITR id="36148" active="0 1" name="Approaching FLAD and Approaching FLAD detail" description="Can we please have the foreclosure attorney name and property state added to the report detail for the approaching FLAD reports." owner="Lorri Beltz" status="Scheduled for Release" followupdate="2017-08-14">
+    <Comment date="07/19/2017 15:57:16" text="pending requestor testing" />
+    <Comment date="07/28/2017 11:43:41" text="testing complete, she wants attorney name not just firm." />
+    <Comment date="07/28/2017 12:06:10" text="uploaded new doc. think she looked at wrong report or missed the column. assigned for testing." />
+    <Comment date="07/31/2017 12:00:08" text="still waiting for testing" />
+    <Comment date="08/09/2017 14:47:53" text="pinged requestor for testing" />
+    <Comment date="08/09/2017 14:57:13" text="emailed the tester the report so she can review." />
+    <Comment date="08/09/2017 15:02:27" text="testing completed. ready to be published. emailed to will and april." />
+    <Comment date="09/18/2017 14:33:49" text="complete" />
+  </BITR>
+  <BITR id="37516" active="0 1" name="Fee Waiver Exception Report" description="We would like to create a report to monitor fee waiver reports to ensure fees are being waived in accordance with Selene P&amp;P.      This includes Late Charge, NSF Fee and Convenience Fee.  We would prefer if these were all on one report, but understand if they need to be separate reports.      We only want to see the exceptions to the allowable policy below:      Waivers are permitted:  1.) 1x in a 12 month period  2.) If loan is in active loss mitigation  3.) Selene error (not sure if we will be able to track this for LC)  4.) Convenience Fee - if multi drafts are accepted at one time, we only charge one fee and waive the rest.      All other waivers should appear on this report.  Report should include:  Loan Number  SPOC Who Generated Waiver  SPOC Assigned to Loan  Manager  Investor  Reason for Waiver (if available)  DLQ3 Status  Info from Talk Screen from Date of Call for Waiver     Talking To     Intent Type     RFD     Options Discussed     Items Completed     Next Steps" owner="Andrew Jowers" status="Assigned" followupdate="2017-07-20">
+    <Comment date="07/19/2017 14:39:11" text="waiting for convenience fees to be in passport table." />
+  </BITR>
+  <BITR id="37728" active="1" name="Mobile Notary" description="We need to update Sami mobile notary report.  We need all of the information that ServiceLink sends over with the mobile notary updates to be included in a daily report.    ServiceLink sends a status report daily (see attached)    Shya may need to weigh in on the Mobile Notary report received from ServicelInk" owner="Rebecca Atkins" status="Scheduled for Release" followupdate="2017-09-22">
+    <Comment date="07/19/2017 14:39:45" text="uploaded report to the bitr. need to send to requestor" />
+    <Comment date="07/28/2017 11:36:50" text="uploaded new doc, sent to requestor." />
+    <Comment date="09/18/2017 14:30:41" text="REPLIED TO REQUESTOR QUESTIONS" />
+    <Comment date="09/20/2017 09:41:07" text="asked for publish" />
+    <Comment date="09/26/2017 13:35:18" text="complete" />
+  </BITR>
+  <BITR id="36295" active="0 1" name="Call center report - Goldman" description="I need reports that allow me to do the following:  • Shows EOM status to Current day status by delinquency bucket and provides details as to which loans are at risk of not paying based on prior month history.  This report will also be used to track clean pay history.  See above attachment – Clean Pay Report     • Shows Call Exclusions and loans available for calls.  This report will be used to ensure sufficient calls attempts are occurring for our standard call campaigns and research exclusions if aging appears suspect.  The report already exist, but just needs to be enhanced -  see Call Campaign and Exclusion report for revisions.  Changes are in red font.  The link to the report is http://reports.selenefinance.com/Reports/Pages/Report.aspx?ItemPath=%2fLoan+Resolution%2fSelene+Servicing+Dashboard      • Shows payment and call activity by delinquency bucket.  This report will be used to show payment and call attempt activity for loans that are available for a call by delinquency bucket.  Requesting for changes to be made to the following report –see http://reports.selenefinance.com/Reports/Pages/Report.aspx?ItemPath=%2fServicing+Analytics%2fCall+Attempts+Exclusions.  Attached are the requested revisions, which are in red font – see Revisions – Payment and Call Activity report.        Note, each report should have the ability to drill down to loan level detail which has the same fields as the Detailed Loan custom - see http://reports.selenefinance.com/Reports/Pages/Report.aspx?ItemPath=%2fLoan+Resolution%2fDetailed+Loan+Custom" owner="Dhruval Patel" status="Rejected">
+    <Comment date="07/19/2017 16:55:14" text="assigned to dhruval" />
+  </BITR>
+  <BITR id="37193" active="0 1" name="LM Probability and Pull Through Reports" description="Create LM Probability Report     Create LM Pull Through Report" owner="April Vieyra" status="Rejected" />
+  <BITR id="37843" active="0 1" name="Coll Activity and Clean Pay reports" description="Create reports for MTD Coll Activity and MTD Clean Pay. Samples attached." owner="Andrew Jowers" status="In development" followupdate="2017-08-02">
+    <Comment date="07/28/2017 11:28:51" text="reports created, sent to jitesh and april for review. waiting on them for next steps" />
+    <Comment date="08/09/2017 15:05:32" text="resent to jitesh and april. waiting for there response" />
+    <Comment date="09/07/2017 11:23:21" text="completed" />
+  </BITR>
+  <BITR id="36735" active="0 1" name="Creating the Database SEL101" description="Creating the Database SEL101(server :P02) on DEV as well as Prod, also creating the process to truncate and reload the required set of tables as per the requirement. source for the required tables are pulled form the link server on XFER01." owner="Andrew Jowers" status="Closed" followupdate="2017-08-14">
+    <Comment date="07/28/2017 11:28:14" text="need to review the tables and make sure everything's getting pulled in" />
+    <Comment date="07/28/2017 14:15:23" text="need some additional tables. assigned back to BI" />
+    <Comment date="07/31/2017 10:47:22" text="no response yet. sent to will to advise." />
+    <Comment date="08/08/2017 13:47:19" text="additional tables added. testing complete." />
+    <Comment date="09/18/2017 14:33:16" text="testing completed, closing" />
+  </BITR>
+  <BITR id="38101" active="0 1" name="Update OTD reporting to include new Ventanex data" description="Ventanex data needs to be incorporated into all reports displaying OTD info." owner="SAMI ADMIN" status="Rejected" followupdate="2017-08-10">
+    <Comment date="07/28/2017 14:16:22" text="no action needed at this time" />
+    <Comment date="08/09/2017 15:07:05" text="view created, synonym create to replace. need to go through and replace case statement (located in BITR notes)" />
+    <Comment date="08/10/2017 16:59:40" text="complete" />
+  </BITR>
+  <BITR id="37801" active="1" name="Prop Pres_Hazard Dashboard_GS Reporting" description="To Build a Hazard Claims Dashboard that will then be used for all investor reporting specifically Goldman Sachs. GS has requested an extensive Dashboard type of reporting to review &amp; gage Hazard Claims status &amp; vendor performance. Because this report will be extremely detailed per Goldmans reqs, this should also satisfy all other investor reporting request for haz claim data.   Hazard Claims are managed by 2 vendors, claims data reports are being sFTP &amp; ingested to P03.PROP.property.hazard_claim tables.   Dimont: \\sfshou04\fidelity-ftp-folder\DIMONT\Inbound: Selene_DimontClaimFile  Rutledge: \\sfshou04\fidelity-ftp-folder\RutledgeCM\Inbound  Business Owners: Elnara McDowell &amp; Kevin Strickland  Investor Portfolio Owner: Robert Tompkins  Investor Contact/Business Owner: Duwaine Thomas @ GS" owner="Andrew Jowers" status="Assigned" followupdate="2017-10-12">
+    <Comment date="07/31/2017 16:54:09" text="get with requestor" />
+    <Comment date="08/09/2017 14:50:36" text="pinged requestor for some time to review request and what's needed." />
+    <Comment date="08/22/2017 11:08:08" text="went over info with requestor. have all notes. BITR 37637 is related to pushing dev tables to prod, should be wrapped up this week" />
+    <Comment date="09/26/2017 13:30:05" text="waiting for live data in prod" />
+    <Comment date="10/10/2017 11:34:27" text="meeting with kevin tom morning for metric clarification" />
+    <Comment date="10/11/2017 16:25:21" text="met with kevin, got the metrics. created dashboard, need to create drill down" />
+  </BITR>
+  <BITR id="37912" active="0 1" name="Associate addition to report" description="Please add Jaimee Mound under Leslie Simmons on the Associate Productivity report located in the Foreclosure folder" owner="Amie Walker" status="Scheduled for Release" followupdate="2017-08-14">
+    <Comment date="07/31/2017 15:31:08" text="check and make sure employee now shows after sysup" />
+    <Comment date="08/08/2017 10:17:01" text="employee is showing. sent to requestor for testing." />
+    <Comment date="09/18/2017 14:34:33" text="complete" />
+  </BITR>
+  <BITR id="38178" active="0 1" name="Update subscription - Reconciliation Report" description="This report was updated as a part of BITR#36422.    I changed the name of this report, as it was misspelled and the requester asked for it to be corrected. When it got published, it became an additional item rather that updating the existing report.    The new report is Loan Admin &gt; Reconciliation Report (http://reports.selenefinance.com/Reports/Pages/Report.aspx?ItemPath=%2fLoan+Administration%2fReconciliation+Report&amp;ViewMode=Detail.     The old report is Loan Admin &gt; Reconcilation Report (missing an “i”) http://reports.selenefinance.com/Reports/Pages/Report.aspx?ItemPath=%2fLoan+Administration%2fReconcilation+Report&amp;ViewMode=Detail.    The subscription on the old report is still running. I need to copy the existing subscription details from the old report to the new, then remove the old report from appearing on the reporting server." owner="SAMI ADMIN" status="Rejected" followupdate="2017-08-14">
+    <Comment date="07/31/2017 16:55:58" text="created, need subscription updated. related to 36422" />
+    <Comment date="08/08/2017 10:45:49" text="emailed will/april to have assigned and worked" />
+  </BITR>
+  <BITR id="38470" active="0 1" name="Update Ventanex OTD import to insert new employees" description="Need to add a step to the existing SSIS package that imports the ventanex OTD data to report.ventanex_otd_transaction_listings.    Step should call proc company.ventanex_msp_reference_insert. This proc adds new employee names from ventanex data to a reference table that links ventanex name to msp_id for reporting purposes." owner="Venkat Chennam" status="Assigned" />
+  <BITR id="37637" active="0 1" name="Prop Pres_PROP Database Enhancement" description="Will need to enhance the P03.PROP Database to accommodate newly requesting Goldman Sachs Hazard Insurance related data points.   Data Reports have been standardized between both vendors and currently being sFTP to Selene.   SSIS BITR 37636 recently opened to ingest reports." owner="Jennifer Ness" status="Closed" />
+  <BITR id="38904" active="1" name="Softpro Dashboard" description="Create softpro dashboard" owner="Nathaniel Tincher" status="Ready for testing" followupdate="2017-10-02">
+    <Comment date="09/07/2017 10:57:41" text="dashboards deployed" />
+    <Comment date="09/18/2017 14:35:23" text="assigned to nate for additional testing" />
+    <Comment date="09/26/2017 13:32:25" text="waiting for testing" />
+    <Comment date="10/10/2017 11:34:07" text="more items needed" />
+  </BITR>
+  <BITR id="38550" active="0 1" name="Hold Updates - First Legal Control Detail" description="Good Morning,    The below holds need to be added to the logic for the &quot;First Legal Control Detail and &quot;Investors SLA Summary And Detail&quot; reports    Copy of Property Inspection  Copy of Invoice Needed    There holds are controllable after 10 days. Please let me know if you have any questions" owner="Evan Shafer" status="Testing Completed" />
+  <BITR id="39184" active="0 1" name="Capacity Plan Call Summary Report" description="I would like a report to use for capacity planning.  Using the breakout of the data on the Call Summary Report, I would like to see the totals by each client, similar to how the Workout Summary report is broken out.      See attached sample layout." owner="Mary McGrath" status="Scheduled for Release" followupdate="2017-10-02">
+    <Comment date="09/26/2017 13:28:14" text="complete" />
+  </BITR>
+  <BITR id="39173" active="0 1" name="loans with hard '0' in amount past due field" description="Please provide an up-to-date report to the previous BITR (36507) of loans in MSP on the MAS1/CBR1 screen which reflects a hard '0' in the 'amount past due field&quot;.        We need to determine with the new population of acquisitions acquired since the initial report was produced, if any new loans are being boarded with this same '0' value or if any loans may have been missed for example account #722066 which should have been on the initial list." owner="Cathy Oliver" status="Closed" followupdate="2017-10-02">
+    <Comment date="09/26/2017 13:36:39" text="need to get with srini, he has the process from the last time he created this report." />
+    <Comment date="09/27/2017 11:27:11" text="attached report to ticket, assigned for testing" />
+    <Comment date="10/10/2017 11:33:36" text="complete" />
+  </BITR>
+  <BITR id="39116" active="0 1" name="New Hire-add to reports" description="Please add Renae Hale as reporting under Leslie Leanhart- Bankruptcy department for the Associate Productivity, Task Detail and any other reports where associates are a drop down feature for BK" owner="Amie Walker" status="Scheduled for Release" followupdate="2017-10-02">
+    <Comment date="09/26/2017 13:29:12" text="assigned for testing" />
+    <Comment date="10/10/2017 11:32:26" text="completed" />
+  </BITR>
+  <BITR id="39474" active="0 1" name="BK Dash Exception bucket needed" description="Please add an exception bucket on the BK Dashboard to populate when the Bankruptcy Bar Date from the B21&quot;POC Bar Date&quot; step is completed in MSP  and there is no POC filed date completed in the LPS step 7 &quot;Actual Date POC filed with Court&quot; on the BK_POCATTY process     or    if step 3 &quot;POC Bar Date&quot; is not completed in LPS" owner="Gina Gray" status="Scheduled for Release" followupdate="2017-10-02">
+    <Comment date="09/26/2017 13:28:45" text="complete" />
+  </BITR>
+  <BITR id="38919" active="1" name="Detailed Loan Custom Report - Enhancement request" description="Add the following column:  - Suspense balance   - Last Attempt date   - PTP  - PTP Date     In addition, the &quot;Call Attempt&quot; section should count loans only within the month report it is being ran.  Also, the OTD section of the report should only include those OTD's that have not drafted yet, which is what it use to do." owner="Cory Clayton" status="Ready for testing" followupdate="2017-10-13">
+    <Comment date="10/10/2017 11:32:01" text="waiting on testing" />
+  </BITR>
+  <BITR id="39968" active="0 1" name="Claims Without Loss Mitigation Module 9-2017" description="Requesting reporting for:  Account Number  Date Approved  Initial Claim Reason  Convey Flag  ** per Janelle DeLosSantos" owner="Laurence Parrish" status="Testing Completed" />
+  <BITR id="39672" active="0 1" name="Lockbox - STOP File Logic" description="Look into the effort level of creating a stop file for both Lockbox and Vantenex, and also look into impact of the Fiserv Website functionality, if that is impacted" owner="Shya Spofford" status="Assigned to Analysis" />
+  <BITR id="40595" active="0 1" name="Mail Stop Logical Engine" description="Build an engine to manage and script into Fiserv the Mail Stop Codes." owner="Jitesh Patel" status="Ready for testing" />
+  <BITR id="38731" active="0 1" name="HV EXCEPTION AND ADD HV CODE TO FC DB INVENTORY" description="Please add an exception to the Foreclosure Dashboard for High Value.  If the asset is coded as a HV asset for Loan Resolution - Please add the asset as an exception to the Foreclosure Dashboard.    Additionally, please add a HV Flag to the foreclosure inventory report within the dashboard." owner="Dawn Berry" status="Scheduled for Release" followupdate="2017-11-06">
+    <Comment date="10/31/2017 14:50:32" text="completed changes. assigned for testing" />
+  </BITR>
+  <BITR id="40079" active="0 1" name="amount past due field" description="please provide an update to BITR 39173...there are still loans in the MSP system which reflects a 'hard zero' in the amount past due field as shown below on MAS1/CBR1---         APD:         0    I am not looking for a blank field with no value---I am looking for loans with an 'actual '0' in the field." owner="Cathy Oliver" status="Ready for testing" followupdate="2017-10-25">
+    <Comment date="10/24/2017 16:12:01" text="need tls report from srini, then use the python code to pull the loan numbers in" />
+    <Comment date="10/26/2017 11:23:03" text="provided report. no more action needed" />
+  </BITR>
+  <BITR id="40793" active="0 1" name="ArcHome - Marketing Data - Creation 22nd Campaign" description="Business would like 22nd marketing file put together for a standard campaign (which models BITR 39273 for campaign 21). Please wait to pull this leads list together until Nov. 1 so that we begin new pay history month. The pulling of the leads list for our letter campaigns are being transitioned from Mark W's team to Jitesh's team. The only 2 changes which now become the new standard.  (1) Remove NY from states (WEI is having problems with this licensing); Excluded states/territories are: NY, ID, UT, NV, HI, MO, Guam &amp; Virgin Islands.  (2) Remove the Acquisitions Date criteria exclusion scrub (Delinquent At Time of Boarding) as we will be doing letter campaign that requires more disclosures.   •Please note - Loans still due for 11/1/17 are current loans until 12/1/17 and should not be excluded from the population.  •Would like a loan level breakdown report to see rejects. Besides these standard exclusion headers: [property_state, do_not_solicit, do_not_call, pay_history, aacer_hit, principal_balance, maturity_date, is_bnk, is_reo, is_litigation, loans_already_referred, delinquent] are there other headers that can provide greater transparency on what is being excluded? For example, No Active Borrower Number, BK 7 discharge (which we now include if does not have Rep by Attorney status), Rep by Attorney). Are there any property types or occupancy types that are being excluded that we should track as rejects? Just trying to give a snapshot of why loans were excluded. ArcHome is requesting very detailed analysis of why loans are excluded. Can you add 12 month paystring (i.e. 000000000011) as column to reject report?" owner="Andrew Jowers" status="Rejected" followupdate="2017-11-01">
+    <Comment date="10/31/2017 14:18:10" text="have sql code ready to go, need to figure out about the insert." />
+  </BITR>
+  <BITR id="39630" active="1" name="New Report - FC Deed Recorded" description="Good Morning,    We are needing 2 types of FC Deed Recorded created.    Filter options: Date Range based recorded date, Investor, Deal number Check boxes.     The first one will have to capture the information attached to the &quot;Deed Recorded&quot; step DDF within the &quot;Foreclosure Deed&quot; Process. This contains comments, Deed in the name of, recording date, Book, Page. The other fields needed on the report are Loan, Ref Info Identifier, Investor Name, Deal Number, Assigned Vendor, Property State, Step completed date. Example BITR is Investor Request - FC Deed Info(36869)    The second report will just be a search type report. Just like the Home &gt; Foreclosure &gt; Foreclosure Loan Search" owner="Andrew Jowers" status="In development" />
+  <BITR id="40946" active="1" name="my net summary report" description="Can you please add the following widgets to the report?  This needs to pull from both Selene mynet queues and Spl Ser Mynet queues    &gt;Outbound:  Send copy to borrower  &gt;Outbound:  Send to Collateral-CTC (new)  &gt;Outbound:  Send to Collateral (no recording)" owner="Andrew Jowers" status="In development" followupdate="2017-11-10">
+    <Comment date="11/06/2017 14:48:26" text="emailed reqeustor with question" />
+  </BITR>
+  <BITR id="40697" active="1" name="FHLMC Project New FC Primary Sevicing Dashboard" description="I would like to have a new FC Dashboard created that only tracks Goldman, GNMA (FHA, USDA, VA),FNMA,FHLMC and the MSR portfolios that are currently a part of the other types indicated.  I am uploading a document that gives a broad outline of what I would like to see for this dashboard that differs from the existing FC dashboard today.  You will see that there are some pieces that can remain the same and there are some pieces that I want to have completely different based upon the types of loans that we are working with within this dashboard.  Once this is assigned, I would like to have a meeting with the person that will be creating it so that everyone has a clear understanding of our needs and asks." owner="Andrew Jowers" status="Assigned" />
+  <BITR id="40923" active="0 1" name="FiServ Global Pay Integration - APX4" description="APX4 will submit a check request file to Fiserv either through scripting, or through the process that was anticipated with the IM conversion.  Also, APX4 will manage payees across all platforms and manage the setup, update, etc in Fiserv." owner="Madhuri Garipalli" status="In development" />
+  <BITR id="40847" active="0 1" name="Investor Mapping" description="Change the investor mapping process in the DW to only consider the Investor ID out of MSP.  (3 Character code) to match to an investor_group_id.  Take a snapshot of the loans in each deal_id and put into a history table in PROD101.  Determine the Deal Number / Deal ID on new loans from LILO.  Any changes to deal ids in MSP should be detected on an exception report.  Also, get eliminate the Pool_ID from the system for now, or make it a one-to-one relationship with the deal id." owner="Mark Wilkinson" status="Assigned" />
+  <BITR id="40912" active="0 1" name="APX4 to IM Integration" description="Integrate APX4 with Invoice Management." owner="Madhuri Garipalli" status="In development" />
+  <BITR id="41021" active="1" name="MI claims" description="Hello,    I need a report to reconcile all loans with MI coverage to ensure that our pipeline report is not missing anything or someone did not possibly update steps incorrectly.   We need a report of all conventional loans with MI coverage that went to FC sale, 3rd party sale, DIL, Short sale in the 2016 and 2017. Is there a way pull loans that had coverage at the time of the sale/work-out and had that coverage cancelled after the sale occurred? Once someone is assigned to work the request I can assist with list required steps to pull the data if needed.   Report can be very basic, we would only need the loan number, MI company name, sale/workout date.   Thanks, Elle" owner="Andrew Jowers" status="Assigned" />
+  <BITR id="41029" active="0 1" name="Engine for Stop, Lock, and Mail logic" description="For integration with Fiserv we need to build and engine that puts Stop Codes, Lock Codes, and Mail Stops. On accounts based upon data in our data warehouse and ancillary system." owner="" status="Approved" />
+  <BITR id="41151" active="0 1" name="Add proc sysup.vw_deed_process to daily nc update" description="Please add sysup.vw_deed_process to run daily." owner="" status="Created" />
+  <BITR id="41230" active="0 1" name="Associate Productivity  Report" description="I need to have changes made to the processors associated with Anthony DAddona for the following report.    Home &gt; Foreclosure &gt; Associate Productivity      Move - Desmond Mitchell from Haley Pope to Anthony  Add - Brittany Morgan  Remove: Caroline, Theresa, Kimberly, Sotheavy" owner="Anthony Daddona" status="Scheduled for Release" />
+  <BITR id="41380" active="0 1" name="BITSEC Request" description="I am unable to access RPT101 database on SFHOUSQLP03. I am receiving the error 'The server principal &quot;SELENE1\andrewj&quot; is not able to access the database &quot;RPT101&quot; under the current security context.' in Management Studio when trying to connect to the database.    Please provide access." owner="" status="Approved" />
+  <BITR id="41417" active="1" name="Update Linked Servers on SFHOUSQLD03" description="Need the linked servers on SFHOUSQLD03 to be updated to match what is currently on prod SFHOUSQLP03.    The following query fails on dev server but runs fine on prod:    SELECT  *  FROM openQuery([SFHOUSSISP02],'  SELECT TOP 1  *  from pyramid.dw.dbo.dw_Assettask  ')    Error Received:  OLE DB provider &quot;SQLNCLI11&quot; for linked server &quot;pyramid&quot; returned message &quot;A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.&quot;.  OLE DB provider &quot;SQLNCLI11&quot; for linked server &quot;pyramid&quot; returned message &quot;Login timeout expired&quot;." owner="Mallikarjuna Gopireddy" status="Assigned" />
+  <BITR id="41407" active="1" name="AG RPL List for WEI Campaign" description="AG is asking to pull together a scrubbed list of loans that would be eligible for a RPL refinance marketing campaign. The population of loans for review is attached. Use criteria from BITR 37429 which is special criteria for Angelo Gordon RPL Campaigns. We will need a VERY comprehensive fall out report for any loans on this list. If possible, can we get this list today?" owner="Laura Lucas" status="Ready for testing" />
+</Items>

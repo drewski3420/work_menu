@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<Settings>
+  <Menu>
+    <Title>TheMenu</Title>
+    <Process>powershell_ise</Process>
+    <ForegroundColor>green</ForegroundColor>
+    <BackgroundColor>black</BackgroundColor>
+    <MaxCount>5</MaxCount>
+    <Header> Program Menu </Header>
+    <WindowHeight>24</WindowHeight>
+    <WindowWidth>40</WindowWidth>
+    <WindowSpaceChar>=</WindowSpaceChar>
+  </Menu>
+  <Notes>
+    <SQLScript>BITRs.sql</SQLScript>
+    <XML>C:\Users\andrewj\Programs\PS\Resources\Notes.xml</XML>
+    <MenuTitle>BITR Notes</MenuTitle>
+    <OutputDirectory>C:\Users\andrewj\AppData\Roaming\</OutputDirectory>
+    <OutputFile>BITRNotes.html</OutputFile>
+    <Header> Notes Menu </Header>
+    <WindowHeight>18</WindowHeight>
+    <WindowWidth>40</WindowWidth>
+    <WindowSpaceChar>*</WindowSpaceChar>
+    <RegexString>\b[0-9]{5}(?![0-9])</RegexString>
+    <LastQueryDateTime>2017-11-17 15:13:11</LastQueryDateTime>
+    <MaxMinutesSinceLastQuery>240</MaxMinutesSinceLastQuery>
+  </Notes>
+  <Server>
+    <ServerInstance>SFHOUSQLP03,9990</ServerInstance>
+    <Database>RPT101</Database>
+  </Server>
+  <APOD>
+    <DestDirectory>C:\Users\andrewj\AppData\Roaming\</DestDirectory>
+    <DestFile>APOD.jpg</DestFile>
+    <Source>https://apod.nasa.gov/apod/</Source>
+    <LineLength>65</LineLength>
+    <Exclusion>Explanation:</Exclusion>
+    <URLFilename>astropix.html</URLFilename>
+    <MenuTitle>APOD Download</MenuTitle>
+  </APOD>
+  <Paths>
+    <ScriptOutput>C:\Users\andrewj\AppData\Roaming\</ScriptOutput>
+    <PSScript>C:\Users\andrewj\Programs\PS\</PSScript>
+    <SQLScript>C:\Users\andrewj\Programs\PS\Resources\SQL Scripts\</SQLScript>
+    <SQL>L:\SQL\</SQL>
+    <Menu>C:\Users\andrewj\Programs\PS\MenuUnified.ps1</Menu>
+    <BGInfo>C:\bginfo\bginfo.exe</BGInfo>
+    <BGInfoConfig>C:\Users\andrewj\Programs\PS\Resources\BGinfo\drew.bgi</BGInfoConfig>
+    <Notes>C:\Users\andrewj\Programs\PS\NotesSystem.ps1</Notes>
+    <Backup>C:\Users\andrewj\Programs\PS\Backup.ps1</Backup>
+    <Launch>C:\Users\andrewj\Programs\PS\LaunchIt.ps1</Launch>
+    <Kill>C:\Users\andrewj\Programs\PS\KillIt.ps1</Kill>
+    <Search>C:\Users\andrewj\Programs\PS\Search.ps1</Search>
+    <Run>C:\Users\andrewj\Programs\PS\RunIt.ps1</Run>
+    <APOD>C:\Users\andrewj\Programs\PS\APOD.ps1</APOD>
+    <OpenBITR>C:\Users\andrewj\Programs\PS\OpenBITR.ps1</OpenBITR>
+    <DisplayNotes>C:\Users\andrewj\Programs\PS\Notes_Display.ps1</DisplayNotes>
+  </Paths>
+  <BITR>
+    <URL>http://sara7.selenefinance.com/sections/BIT/requestview.aspx?rid=</URL>
+  </BITR>
+  <Time>
+    <PS1>TimeDetail.ps1</PS1>
+    <TXT>TimeDetail.txt2</TXT>
+    <SQL>TimeDetail.sql</SQL>
+  </Time>
+  <Search>
+    <SearchOutput>SearchResults.html</SearchOutput>
+  </Search>
+  <Vars>
+    <AllVar>A</AllVar>
+    <APODVar>P</APODVar>
+    <BackupVar>B</BackupVar>
+    <DisplayAllNoteVar>A</DisplayAllNoteVar>
+    <FollowupDateVar>D</FollowupDateVar>
+    <ForceQueryVar>F</ForceQueryVar>
+    <KillVar>K</KillVar>
+    <LaunchVar>L</LaunchVar>
+    <NewNoteVar>N</NewNoteVar>
+    <NoteVar>N</NoteVar>
+    <QuitVar>Q</QuitVar>
+    <RebootVar>X</RebootVar>
+    <RunVar>R</RunVar>
+    <SearchVar>S</SearchVar>
+    <TimeVar>T</TimeVar>
+  </Vars>
+  <Backup>
+    <Dest>L:\Backup\</Dest>
+    <Title>Backup Menu</Title>
+  </Backup>
+  <MenuGUI>
+    <Width>210</Width>
+    <Height>175</Height>
+    <FormBorderStyle>FixedSingle</FormBorderStyle>
+    <StartPosition>Manual</StartPosition>
+    <Text>The Menu</Text>
+    <TopMost>True</TopMost>
+  </MenuGUI>
+  <NotesGUI>
+    <Width>425</Width>
+    <Height>450</Height>
+    <FormBorderStyle>FixedSingle</FormBorderStyle>
+    <StartPosition>CenterScreen</StartPosition>
+    <Text>Notes Menu</Text>
+    <TopMost>False</TopMost>
+  </NotesGUI>
+</Settings>
