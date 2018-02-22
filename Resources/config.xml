@@ -22,7 +22,7 @@
     <WindowWidth>40</WindowWidth>
     <WindowSpaceChar>*</WindowSpaceChar>
     <RegexString>\b[0-9]{5}(?![0-9])</RegexString>
-    <LastQueryDateTime>2017-11-17 15:13:11</LastQueryDateTime>
+    <LastQueryDateTime>2018-02-14 14:14:22</LastQueryDateTime>
     <MaxMinutesSinceLastQuery>240</MaxMinutesSinceLastQuery>
   </Notes>
   <Server>

@@ -26,7 +26,7 @@ where 1=1
 		or rh.owner_id = coalesce(@empID,rh.owner_ID)	--me
 		or exists (Select null from project.request_status_h h  with (nolock) WHERE h.change_by_id = coalesce(@empID,h.change_by_id) and h.request_ID = r.request_id) --status changed by me
 		or exists (select null from project.request_Comments c  with (nolock) where c.create_by_id = coalesce(@empID,c.create_by_id) and c.request_ID = r.request_ID) --comment by me
-		OR EXISTS (SELECT NULL FROM project.request_subscribers s  with (nolock) WHERE s.employee_ID = coalesce(@empID,s.employee_ID) AND s.request_ID = r.request_ID) --subscribed by me
+		OR EXISTS (SELECT NULL FROM project.request_subscribers s  with (nolock) WHERE s.employee_ID = coalesce(@empID,s.employee_ID) AND s.request_ID = r.request_ID AND delete_date IS null) --subscribed by me
 	)
 order by 
 	Case when rh.owner_id = coalesce(@empID,rh.owner_ID) then 0 else 1 end
